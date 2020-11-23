@@ -1,0 +1,25 @@
+{
+  "fuseVersion": "1.8.10",
+  "metadata": {
+    "fusebit": {
+      "editor": {
+        "navigationPanel": {
+          "hideFiles": []
+        }
+      }
+    }
+  },
+  "compute": {
+    "memorySize": 128,
+    "timeout": 30,
+    "staticIp": false
+  },
+  "computeSerialized": "memorySize=128\ntimeout=30\nstaticIp=false",
+  "configuration": {
+    "debug": "1",
+    "fusebit_settings_managers": "",
+    "fusebit_show_form_configuration": "1",
+    "fusebit_allowed_return_to": "*"
+  },
+  "authentication": "none"
+}

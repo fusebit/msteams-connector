@@ -1,2 +1,2 @@
-# msteams-add-on
-Fusebit Add-On for Microsoft Teams
+# Fusebit Add-On for Microsoft Teams
+

@@ -1,0 +1,21 @@
+{
+    "name": "@fusebit/msteams-add-on",
+    "version": "0.0.1-pre-1",
+    "description": "Fusebit Add-On for Microsoft Teams",
+    "main": "lib/index.js",
+    "license": "MIT",
+    "author": "https://fusebit.io",
+    "packageAs": "@fusebit/msteams-add-on",
+    "keywords": [],
+    "dependencies": {
+        "botbuilder": "4.11.0",
+        "mock-http": "1.1.0",
+        "express": "4.17.1",
+        "superagent": "6.1.0",
+        "jsonwebtoken": "8.5.1",
+        "uuid": "8.3.1"
+    },
+    "devDependencies": {
+        "prettier": "^2.0.5"
+    }
+}
