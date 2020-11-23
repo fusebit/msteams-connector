@@ -3,7 +3,7 @@
     "node": "10"
   },
   "dependencies": {
-    "@fusebit/msteams-add-on": "0.0.1-pre-1",
+    "@fusebit/msteams-add-on": "0.0.1-pre-2",
     "botbuilder": "4.11.0",
     "superagent": "6.1.0"
   }
