@@ -140,13 +140,21 @@
             );
 
             return (
-                <Dialog open={true} fullWidth maxWidth="sm" disableBackdropClick disableEscapeKeyDown>
+                <Dialog open={true} fullWidth maxWidth="md" disableBackdropClick disableEscapeKeyDown>
                     <DialogTitle>Creating <strong>##templateName##</strong></DialogTitle>
                     <DialogContent>
-                        <DialogContentText>All configuration parameters specified below can be modified later in the Configuration section of the ##templateName##.</DialogContentText>
+                        <DialogContentText>All configuration parameters specified below can be modified later in the Configuration section of the {data.boundaryId}/{data.functionId} function.</DialogContentText>
                         <Grid container spacing={2}>
                             <Grid item xs={12}>
                                 <Grid container spacing={2}>
+                                    <Grid item xs={12}>
+                                        <DialogContentText><strong>NOTE</strong> Before filling out this form, register a Bot with Microsoft Teams and use the following URL for the "Messaging Endpoint":<br></br>{
+                                            data.baseUrl
+                                        }/v1/run/{data.subscriptionId}/{data.boundaryId}/{data.functionId}/api/messages</DialogContentText>
+                                        <DialogContentText><strong>NOTE</strong> When creating an OAuth client in your system, configure the following URL as a valid callback URL:<br></br>{
+                                            data.baseUrl
+                                        }/v1/run/{data.subscriptionId}/{data.boundaryId}/{data.functionId}/callback</DialogContentText>
+                                    </Grid>
                                     {getInput('microsoft_app_id', 'Microsoft Teams Bot Id', 'Bot Id of the Microsoft Teams Bot obtained during registration')}
                                     {getInput('microsoft_app_password', 'Microsoft Teams Bot Password', 'Bot password of the Microsoft Teams Bot generated during registration')}
                                     {getInput('vendor_name', 'Vendor name', 'Used for customizing UI')}
