@@ -1,11 +1,11 @@
 {
-    "name": "@fusebit/msteams-add-on",
-    "version": "0.0.1-pre-3",
-    "description": "Fusebit Add-On for Microsoft Teams",
+    "name": "@fusebit/msteams-connector",
+    "version": "0.0.1-pre-1",
+    "description": "Fusebit Connector for Microsoft Teams",
     "main": "lib/index.js",
     "license": "MIT",
     "author": "https://fusebit.io",
-    "packageAs": "@fusebit/msteams-add-on",
+    "packageAs": "@fusebit/msteams-connector",
     "keywords": [],
     "dependencies": {
         "botbuilder": "4.11.0",
