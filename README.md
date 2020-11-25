@@ -20,3 +20,14 @@ Soon enough you will be writing code of your integration logic. Get in touch at 
 * `lib/manager` contains the Fusebit Microsoft Team Connector Manager logic which supports the install/uninstall/configure operations for the connector.
 * `lib/manager/template` contains a template a Fusebit Function that exposes the Fusebit Microsoft Team Connector interface. As a developer, you will be spending most of your time focusing on adding your integration logic to [VendorBot.js](https://github.com/fusebit/msteams-connector/blob/main/lib/manager/template/VendorBot.js). 
 * `fusebit` contains a template of a Fusebit Function that exposes the Fusebit Microsoft Team Connector Manager interface. 
+
+## Release notes
+
+### v2.0.0
+
+* Removed FusebitBot.getBoundaryIdForTeamsUser and Fusebit.getFunctionIfForTeamsUser. 
+* Added FusebitBot.getBoundaryId and FusebitBot.getFunctionId that accept the entire userContext instead. 
+
+### v1.0.0
+
+* Initial implementation.

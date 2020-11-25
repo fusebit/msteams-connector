@@ -3,6 +3,6 @@
     "node": "10"
   },
   "dependencies": {
-    "@fusebit/msteams-connector": "1.0.0"
+    "@fusebit/msteams-connector": "2.0.0-pre-1"
   }
 }
