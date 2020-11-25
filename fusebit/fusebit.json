@@ -15,5 +15,7 @@
     "staticIp": false
   },
   "computeSerialized": "memorySize=128\ntimeout=30\nstaticIp=false",
-  "authentication": "optional"
+  "security": {
+    "authentication": "optional"
+  }
 }
