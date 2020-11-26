@@ -23,6 +23,10 @@ Soon enough you will be writing code of your integration logic. Get in touch at 
 
 ## Release notes
 
+### v2.0.1
+
+* Declaring botbuilder and superagent as peer dependencies to reduce the size of the deployed connector and its build time.
+
 ### v2.0.0
 
 * Removed FusebitBot.getBoundaryIdForTeamsUser and Fusebit.getFunctionIfForTeamsUser. 
