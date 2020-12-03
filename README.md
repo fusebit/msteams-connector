@@ -26,8 +26,8 @@ Soon enough you will be writing code of your integration logic. Get in touch at 
 ### v2.1.0
 
 -   Fix bug to correctly pass the `payload` parameter to the FusebitBot.onNotification function.
--   Fix bug to properly handle vendor login completion initiated from a personal conversation with the bot. In those cases the userContext.teamsUser.channel and userContext.teamsUser.team will not be populated, but userContext.teamsUser.conversation will.
--   Populate userContext.teamsUser.conversation on completion of the vendor login flow.
+-   Populate `userContext.teamsUser.conversation` and `userContext.teamsUser.serviceUrl` on completion of the vendor login flow.
+-   Fix bug to properly handle vendor login completion initiated from a personal conversation with the bot. In those cases the `userContext.teamsUser.channel` and `userContext.teamsUser.team` will not be populated.
 -   Replace embedded version of add-on-sdk with dependency on @fusebit/add-on-sdk.
 -   Prettify everything.
 
