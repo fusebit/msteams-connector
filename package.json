@@ -1,6 +1,6 @@
 {
     "name": "@fusebit/msteams-connector",
-    "version": "2.1.0-pre-4",
+    "version": "2.1.0-pre-5",
     "description": "Fusebit Connector for Microsoft Teams",
     "main": "lib/index.js",
     "license": "MIT",
