@@ -1,21 +1,21 @@
 {
-  "fuseVersion": "1.8.11",
-  "metadata": {
-    "fusebit": {
-      "editor": {
-        "navigationPanel": {
-          "hideFiles": []
+    "fuseVersion": "1.8.11",
+    "metadata": {
+        "fusebit": {
+            "editor": {
+                "navigationPanel": {
+                    "hideFiles": []
+                }
+            }
         }
-      }
+    },
+    "compute": {
+        "memorySize": 128,
+        "timeout": 30,
+        "staticIp": false
+    },
+    "computeSerialized": "memorySize=128\ntimeout=30\nstaticIp=false",
+    "security": {
+        "authentication": "optional"
     }
-  },
-  "compute": {
-    "memorySize": 128,
-    "timeout": 30,
-    "staticIp": false
-  },
-  "computeSerialized": "memorySize=128\ntimeout=30\nstaticIp=false",
-  "security": {
-    "authentication": "optional"
-  }
 }
