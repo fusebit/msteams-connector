@@ -16,6 +16,18 @@
   },
   "computeSerialized": "memorySize=128\ntimeout=30\nstaticIp=false",
   "security": {
-    "authentication": "optional"
+    "authentication": "optional",
+    "functionPermissions": {
+      "allow": [
+        {
+          "action": "storage:*",
+          "resource": "/account/{{accountId}}/subscription/{{subscriptionId}}/storage/"
+        },
+        {
+          "action": "function:*",
+          "resource": "/account/{{accountId}}/subscription/{{subscriptionId}}/"
+        }
+      ]
+    }
   }
 }
