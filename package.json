@@ -1,6 +1,6 @@
 {
     "name": "@fusebit/msteams-connector",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "description": "Fusebit Connector for Microsoft Teams",
     "main": "lib/index.js",
     "license": "MIT",
@@ -12,11 +12,10 @@
         "superagent": "6.1.0"
     },
     "dependencies": {
-        "mock-http": "1.1.0",
         "express": "4.17.1",
         "jsonwebtoken": "8.5.1",
         "uuid": "8.3.1",
-        "@fusebit/add-on-sdk": "3.0.2"
+        "@fusebit/add-on-sdk": "3.1.0"
     },
     "devDependencies": {
         "prettier": "^2.0.5"

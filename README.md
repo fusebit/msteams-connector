@@ -23,6 +23,12 @@ Soon enough you will be writing code of your integration logic. Get in touch at 
 
 ## Release notes
 
+### v2.2.0
+
+-   Add FusebitBot.onCreate to allow for registration of custom Express routes on the bot.
+-   Add FusebitBot.authorize to help with creation of authorization middleware to secure custom Express routes using Fusebit tokens.
+-   Update @fusebit/add-on-sdk to 3.1.0 to simplify creation of Fusebit functions from Express router.
+
 ### v2.1.0
 
 -   Fix bug to correctly pass the `payload` parameter to the FusebitBot.onNotification function.
