@@ -23,6 +23,11 @@ Soon enough you will be writing code of your integration logic. Get in touch at 
 
 ## Release notes
 
+### v2.3.0
+
+-   Add sign-in card activity ID to user context when sending a sign-in card.
+-   Add public FusebitBot.getStorageIdForTeamsUser and FusebitBot.getStorageIdForVendorUser methods.
+
 ### v2.2.0
 
 -   Add FusebitBot.onCreate to allow for registration of custom Express routes on the bot.
