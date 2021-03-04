@@ -23,6 +23,10 @@ Soon enough you will be writing code of your integration logic. Get in touch at 
 
 ## Release notes
 
+### v2.4.0
+
+-   Add sign-in card activity ID to user context when validating the token.
+
 ### v2.3.0
 
 -   Add sign-in card activity ID to user context when sending a sign-in card.
